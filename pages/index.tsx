@@ -7,15 +7,14 @@ const baseStyle = {
     width: '100%',
     maxWidth: '960px',
     margin: '0 auto',
-    textAlign: 'center',
-    color: '#605e5c'
+    textAlign: 'center'
   }
 }
 
 const boldStyle = { root: { fontWeight: FontWeights.semibold } }
 
 const verticalGapStackTokens = {
-  childrenGap: 10
+  childrenGap: 16
 }
 
 const horizontalGapStackTokens = {

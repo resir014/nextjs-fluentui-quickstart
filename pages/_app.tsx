@@ -1,9 +1,9 @@
 import * as React from 'react'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
-import { Fabric, initializeIcons } from '@fluentui/react'
+import { Fabric } from '@fluentui/react'
 
-initializeIcons()
+import 'modern-normalize'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
